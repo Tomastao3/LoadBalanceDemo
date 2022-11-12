@@ -9,3 +9,7 @@
 # Ignore intelij files
 /.idea/*
 /*.iml
+
+#build files
+/build/*
+/*/build/*
