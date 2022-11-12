@@ -1,0 +1,11 @@
+#target files
+/target/*
+/*/target/*
+
+#binary output files
+/bin/*
+/*/bin/*
+
+# Ignore intelij files
+/.idea/*
+/*.iml
