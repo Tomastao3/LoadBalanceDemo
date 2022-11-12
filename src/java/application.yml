@@ -1,0 +1,26 @@
+server1:
+  id: server1
+  port: 8081
+engine1:
+  app:
+    name: Customer Service
+    url: /customer
+    class: com.digital.CustomerProcessor
+
+server2:
+  id: server2
+  port: 8082
+engine2:
+  app:
+    name: Customer Service
+    url: /customer
+    class: com.digital.CustomerProcessor
+
+server3:
+  id: server3
+  port: 8083
+engine3:
+  app:
+    name: Customer Service
+    url: /customer
+    class: com.digital.CustomerProcessor
