@@ -1,0 +1,29 @@
+server1:
+  id: server1
+  port: 8081
+  engine:
+    app:
+      name: Customer Service 1
+      url: /customer
+      engineClass: com.demo.eas.engine.impl.AppEngine1
+
+
+server2:
+  id: server2
+  port: 8082
+  engine:
+    app:
+      name: Customer Service 2
+      url: /customer
+      engineClass: com.demo.eas.engine.impl.AppEngine1
+
+
+
+server3:
+  id: server3
+  port: 8083
+  engine:
+    app:
+      name: Customer Service 3
+      url: /customer
+      engineClass: com.demo.eas.engine.impl.AppEngine1
